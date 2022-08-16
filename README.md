@@ -9,4 +9,10 @@ I hosted this website on netlify link : https://deepak-music.netlify.app/
 
 
 
-![Screenshot 2022-08-16 145805](https://user-images.githubusercontent.com/101500066/184846489-611cffee-7179-42e0-842d-0890a38ad40d.png)
+
+
+
+
+
+
+![Screenshot 2022-08-16 145805](https://user-images.githubusercontent.com/101500066/184846813-472f365b-8f57-4e0c-85ae-3f6ccd4a54da.png)
