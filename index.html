@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./favicons.ico" type="image/x-icon">
+ <link rel="stylesheet" href="./css/style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="music">
+        <div class="more-song">
+          <i class="fa-solid fa-list-ul" id="more"></i>
+          <span>Now Playing</span>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div id="cover">
+          <img src="./images"/>
+        </div>
+        <h3 id="title"></h3>
+        <div class="progress">
+          <div class="progress-bar">
+            <span></span>
+          </div>
+        </div>
+        <div class="time">
+          <span class="current">0.00</span>
+          <span class="max">0.00</span>
+        </div>
+        <div class="controls">
+          <i class="fa-solid fa-backward" id="prev" title="previous"></i>
+          <i class="fa-solid fa-play" id="play" title="play"></i>
+          <i class="fa-solid fa-forward" id="next" title="next"></i>
+        </div>
+        <audio src="./music" id="music" ></audio>
+        <div class="music-list">
+          <div class="header">
+            <div class="row"> 
+              <span>Music List</span>
+            </div>
+          
+          </div>
+          <ul>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./music.js"></script>
+  <script src="./script.js"></script>
+</html>
