@@ -66,8 +66,9 @@ html{
     width: 0px;
     border-radius: inherit;
     background: violet;
-    
-
+}
+.progress:hover .progress-bar {
+    background: rgb(204, 80, 204);
 }
 .time{
     display: flex;
@@ -101,6 +102,12 @@ html{
     color: rgb(255, 255, 255);
     background-color: rgb(245, 30, 173);;
     padding-top:1.3rem ;
+    transition: .7s color ;
+}
+#play:hover{
+    color: rgb(245, 30, 173);
+    background: white;
+    transition: .4s;
 }
 
 .music-list{
@@ -131,6 +138,9 @@ html{
     font-size: 1.4rem;
     color: black;
     border-bottom: 1px solid rgb(15, 16, 17);
+}
+.music-list ul li:hover{
+    color: rgb(172, 41, 128)
 }
 .header .row{
     display: flex;
