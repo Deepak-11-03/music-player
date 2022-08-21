@@ -41,7 +41,7 @@ window.addEventListener("load", (songIndex) => {
 // load song data----------------------------------------
 const loadSong = (indexNum) => {
   title.innerHTML = allSongs[indexNum -1].name;
-  image.src = `images/${allSongs[indexNum-1 ].img}.jpg`;
+  image.src = `images/image.jpg`;
   music.src = `music/${allSongs[indexNum -1].src}.mp3`;
 };
 loadSong(songIndex);
